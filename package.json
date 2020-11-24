@@ -1,0 +1,39 @@
+{
+  "name": "zg-cli-template",
+  "version": "1.0.2",
+  "description": "前端脚手架搭建 本项目为演示项目: 通过拉取 Github 上配置好的模板项目,快速启动新项目开发,使得项目开发规范统一",
+  "main": "./bin/index.js",
+  "bin": {
+    "zg-cli": "./bin/zg-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "脚手架",
+    "cli",
+    "开发张工"
+  ],
+  "author": "开发张工",
+  "license": "MIT",
+  "homepage": "https://github.com/OSpoon/zg-cli-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OSpoon/zg-cli-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OSpoon/zg-cli-template/issues",
+    "email": "1825203636@qq.com"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "commander": "^6.2.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.0",
+    "ora": "^5.1.0"
+  },
+  "downloadRepoConfig": {
+    "url": "github:OSpoon/vue-cli-vant-starter"
+  }
+}
