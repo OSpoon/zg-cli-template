@@ -1,6 +1,6 @@
 {
   "name": "zg-cli-template",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "前端脚手架搭建 本项目为演示项目: 通过拉取 Github 上配置好的模板项目,快速启动新项目开发,使得项目开发规范统一",
   "main": "./bin/index.js",
   "bin": {
