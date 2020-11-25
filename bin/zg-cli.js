@@ -25,7 +25,12 @@ const mapAction = {
   zip: {
     alias: "",
     examples: ["zg zip"],
-    description: "Compressed folder",
+    description: "压缩文件",
+  },
+  qrcode: {
+    alias: "",
+    examples: ["zg qrcode <url>"],
+    description: "生成二维码",
   },
 };
 
