@@ -22,6 +22,11 @@ const mapAction = {
     examples: ["zg initialize <name>"],
     description: "initialize the project",
   },
+  zip: {
+    alias: "",
+    examples: ["zg zip"],
+    description: "Compressed folder",
+  },
 };
 
 // 处理命令

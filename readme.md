@@ -9,7 +9,7 @@
 
 #### 安装依赖
 
-`npm i commander download-git-repo ora figlet clear chalk update-notifier -s`
+`npm i commander download-git-repo ora figlet clear chalk update-notifier inquirer compressing -s`
 
 #### 初始化目录
 
@@ -61,3 +61,17 @@ exit
 
 `ls C:\Users\DELL\AppData\Roaming\npm\`
 `rm C:\Users\DELL\AppData\Roaming\npm\zg`
+
+#### 功能
+
+1. 拉取模板: `zg init`
+2. 压缩文件: `zg zip`
+
+#### 常用依赖整理
+
+1. 复制文件: [ncp](https://www.npmjs.com/package/ncp)
+2. fs 扩展: [fs-extra](https://www.npmjs.com/package/fs-extra)
+3. 文件压缩: [compressing](https://www.npmjs.com/package/compressing)
+4. 执行 Shell[shelljs](https://www.npmjs.com/package/shelljs)
+5. Promise library [bluebird](https://www.npmjs.com/package/bluebird)
+6. 命令交互 [inquirer](https://www.npmjs.com/package/inquirer)
