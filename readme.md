@@ -9,7 +9,7 @@
 
 #### 安装依赖
 
-`npm i commander download-git-repo ora figlet clear chalk -s`
+`npm i commander download-git-repo ora figlet clear chalk update-notifier -s`
 
 #### 初始化目录
 
@@ -55,9 +55,9 @@ exit
 
 #### 将 npm 模块链接到对应的运行项目中去
 
-`npm link`
+`npm link` or 反注册 `npm unlink`
 
 #### 删除的情况
 
-`ls /usr/local/bin/`
-`rm /usr/local/bin/zg-cli`
+`ls C:\Users\DELL\AppData\Roaming\npm\`
+`rm C:\Users\DELL\AppData\Roaming\npm\zg`
